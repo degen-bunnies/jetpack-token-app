@@ -22,10 +22,7 @@
 }
 
 .header .sponsorship {
-  position: absolute;
-  top: 88%;
-  left: 85%;
-  z-index: 1;
+  text-align: right;
 }
 
 .header .sponsorship img {

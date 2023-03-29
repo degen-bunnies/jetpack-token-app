@@ -17,9 +17,9 @@ function Header(props) {
           </h2>
           <button className="fund-button">Request Funds (Coming Soon)</button>
         </div>
-        <div className="sponsorship">
-          <a href="https://degenbunnies.com/"><img src={degenBunniesLogo} alt="Degen Bunnies Logo"/></a>
-        </div>
+      </div>
+      <div className="sponsorship">
+        <a href="https://degenbunnies.com/"><img src={degenBunniesLogo} alt="Degen Bunnies Logo"/></a>
       </div>
     </div>
   );
