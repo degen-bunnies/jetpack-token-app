@@ -1,7 +1,6 @@
 import React from 'react';
 import './Header.css';
 import jetpackSite from './jetpack_site.png';
-import degenBunniesLogo from './degen_bunnies_logo.png';
 
 function Header(props) {
   return (
@@ -17,9 +16,6 @@ function Header(props) {
           </h2>
           <button className="fund-button">Request Funds (Coming Soon)</button>
         </div>
-      </div>
-      <div className="sponsorship">
-        <a href="https://degenbunnies.com/"><img src={degenBunniesLogo} alt="Degen Bunnies Logo"/></a>
       </div>
     </div>
   );

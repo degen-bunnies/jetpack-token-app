@@ -4,6 +4,7 @@ import Header from './Header';
 
 import jetpackToken from './jetpack_token_small.png';
 import jetpackLogo from './jetpack_logo.png';
+import degenBunniesLogo from "./degen_bunnies_logo.png";
 
 function App() {
   return (
@@ -128,6 +129,7 @@ function App() {
             </li>
           </ol>
           <div className="signature">
+            <a href="https://degenbunnies.com/"><img src={degenBunniesLogo} alt="Degen Bunnies Logo"/></a>
             <img src={jetpackLogo} alt="JetPack Logo"/>
             <img src={jetpackToken} alt="JetPack Token Logo"/>
           </div>
