@@ -7,35 +7,29 @@
 }
 
 .header-content img {
-  height: 734px;
+  width: 100%;
+  min-width: 650px;
+  max-width: 1280px;
   border-radius: 1%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.header-content .tokenomics {
+  position: absolute;
+  top: 30%;
+  left: 8%;
+  z-index: 1;
 }
 
 .header h1 {
   font-size: 1.8rem;
   color: #F5F5F5;
-  margin: 0;
-  position: absolute;
-  top: 35%;
-  left: 8%;
-  z-index: 1;
 }
 
 .header h2 {
   font-size: 1rem;
   color: #AAAAAA;
-  margin: 0;
-  position: absolute;
-  top: 40%;
-  left: 8%;
   z-index: 1;
-}
-
-.header .fund-button {
-  position: absolute;
-  top: 55%;
-  left: 8%;
 }
 
 .header button {
