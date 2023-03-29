@@ -1,11 +1,13 @@
 import React from 'react';
 import './Header.css';
+import jetpackSite from './jetpack_site.png';
+import degenBunniesLogo from './degen_bunnies_logo.png';
 
 function Header(props) {
   return (
     <div className="header">
       <div className="header-content">
-        <img src={props.imageSrc} alt={props.imageAlt}/>
+        <img className="landing-image" src={jetpackSite} alt="Jet pack landing background"/>
         <div className="tokenomics">
           <h1>{props.text}</h1>
           <h2>
@@ -14,6 +16,9 @@ function Header(props) {
             <div>1 Jet = 1,000,000 Packs</div>
           </h2>
           <button className="fund-button">Request Funds (Coming Soon)</button>
+        </div>
+        <div className="sponsorship">
+          <a href="https://degenbunnies.com/"><img src={degenBunniesLogo} alt="Degen Bunnies Logo"/></a>
         </div>
       </div>
     </div>
