@@ -1,17 +1,8 @@
-import React, {useLayoutEffect} from 'react';
+import React from 'react';
 import './Header.css';
 import jetpackSite from './jetpack_site.png';
 
 function Header(props) {
-  const jetpackSiteImgPreload = () => {
-    let img = new Image();
-    img.src = jetpackSite;
-  };
-
-  useLayoutEffect(() => {
-    jetpackSiteImgPreload();
-  }, []);
-
   return (
     <div className="header">
       <div className="header-content">

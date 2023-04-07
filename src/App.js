@@ -1,12 +1,22 @@
-import React from 'react';
+import React, {useLayoutEffect} from 'react';
 import './App.css';
 import Header from './Header';
 
 import jetpackToken from './jetpack_token_small.png';
 import jetpackLogo from './jetpack_logo.png';
 import degenBunniesLogo from "./degen_bunnies_logo.png";
+import jetpackSite from "./jetpack_site.png";
 
 function App() {
+  const jetpackSiteImgPreload = () => {
+    let img = new Image();
+    img.src = jetpackSite;
+  };
+
+  useLayoutEffect(() => {
+    jetpackSiteImgPreload();
+  }, []);
+
   return (
     <div className="App">
       <Header/>
